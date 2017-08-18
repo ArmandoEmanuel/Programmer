@@ -1,5 +1,5 @@
-	#include <iostream>
-	using namespace std;
+#include <iostream>
+using namespace std;
     int main()
 {
     float sueldo;
@@ -24,6 +24,6 @@
                                     else
                                         sueldo=(sueldo*180)/100;
                                              cout<<"\nTu nuevo sueldo es : "<<sueldo;
-		system("PAUSE");
+	system("PAUSE");
         return 0;
 }
