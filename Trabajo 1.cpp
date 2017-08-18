@@ -2,6 +2,15 @@
 using namespace std;
     int main()
 {
+	    /*
+	Sin necesidad de usar otras variables, calcula el nuevo sueldo de acuerdo a la siguiente tabla
+	rango aumento
+	0 - 1000 18% 
+	1001 - 1100 15%
+	1101 - 1200 12%
+	1201 - 1300 10%
+	mas de 1300 8%
+*/
     float sueldo;
         cout<<"Ingresa tu sueldo actual ";
           cin>>sueldo;
