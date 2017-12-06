@@ -15,11 +15,11 @@ int palindroma(char palabra[],int ini, int fin)
 int main()
 {
     
-    char palabra[50];
+    char palabra[100];
     int tam,pal;
     cout<<"\n\t\tCOMPRUEBA SI UNA ORACION ES PALINDROMA \n\n";
     cout<<" Ingrese la palabra u Oracion: ";
-    cin.getline(palabra,50);
+    cin.getline(palabra,100,'\n');
     tam=strlen(palabra);
     pal=palindroma(palabra,0,tam-1);
     if(pal==1)
